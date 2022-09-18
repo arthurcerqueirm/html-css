@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 99.9vw;
+}
+
+main{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.content{
+    background-color: pink;
+    height: main -10px;
+    width: 250px;
+    border-radius: 20px;
+    transform: translateY(210px);
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content h3{
+    font-size: 17pt;
+
+}
+
+main:hover .content{
+    opacity: 1;
+
+}

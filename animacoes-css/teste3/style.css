@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+article{
+    background-color: #664f9c;
+    padding: 10px;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+}
+
+.menu{
+    position: absolute;
+    left: 0px;
+    top: 37px;
+    width: 100%;
+    background-color: #4b3b73;
+    text-align: center;
+
+}
+
+.show{
+    transition: 1s;
+    height: 150px;
+}
+
+.hide{
+    transition: 1s;
+    height: 0px;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.icon-menu{
+    position: absolute;
+    top: 3px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    margin-top: 5px;
+    width: 15px;
+    background-color: white;
+    height: 3px;
+}

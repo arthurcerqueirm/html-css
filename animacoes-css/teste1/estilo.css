@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#quadrado{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+div#quadrado.animar{ 
+    animation: slide 2s infinite ease forwards;
+}
+
+@keyframes slide{
+    10%{
+        transform: scale(0.5);
+        border-radius: 50%;
+        background-color: lightcoral;
+    }
+    50%{
+        transform: scale(0.5);
+        border-radius: 50%;
+        background-color: lightcoral;
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+        border-radius: 0px;
+        background-color: brown;
+        transform: rotate(75deg);
+        
+    }
+}
