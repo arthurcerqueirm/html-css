@@ -61,5 +61,6 @@ article{
 }
 
 main{
-    min
+    min-width: 100%;
+    background-color: #ccc2e5;
 }
